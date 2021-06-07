@@ -5,7 +5,6 @@ from pyspark.sql.functions import *
 
 from user_definition import *
 
-# Do not add any other libraies/packages
 
 ss = SparkSession.builder.getOrCreate()
 
